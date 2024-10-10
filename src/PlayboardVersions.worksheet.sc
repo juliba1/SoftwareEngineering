@@ -14,8 +14,9 @@ spielfeld(14) = "A"
 
 // Funktion zur Umwandlung in ein 2D-Layout und Ausgabe
 def spielfeldAusgeben(spielfeld: Array[String]): Unit = {
-  println("Willkommen bei unserem tollen Mensch ärgere dich nicht :)")
+  println("Herzlich Willkommen bei unserem tollen Mensch ärgere dich nicht :)")
   println("Hier ist ein erster Entwurf unseres Spielfeldes:\n")
+
   val space = " "
 
   // 2D-Spielfeld (basierend auf der Mensch-ärgere-dich-nicht Form)
@@ -37,6 +38,8 @@ def spielfeldAusgeben(spielfeld: Array[String]): Unit = {
   layout.foreach { row =>
     println(row.mkString(" "))
   }
+
+  println("\nDanke für die Aufmerksamkeit, wir wünschen Ihnen noch einen schönen Tag\n")
 }
 
 spielfeldAusgeben(spielfeld) //Liste an Häusern muss noch übergeben werden
