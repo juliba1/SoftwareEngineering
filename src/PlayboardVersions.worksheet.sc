@@ -11,6 +11,7 @@ spielfeld(22) = "S"  // Spieler C auf Feld 20
 spielfeld(32) = "S"  // Spieler D auf Feld 30
 
 spielfeld(14) = "A"
+spielfeld(15) = "B"
 
 // Funktion zur Umwandlung in ein 2D-Layout und Ausgabe
 def spielfeldAusgeben(spielfeld: Array[String]): Unit = {
