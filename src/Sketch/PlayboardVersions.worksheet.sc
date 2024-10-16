@@ -10,7 +10,7 @@ spielfeld(10) = "ST"  // Spieler B auf Feld 10
 spielfeld(20) = "ST"  // Spieler C auf Feld 20
 spielfeld(30) = "ST"  // Spieler D auf Feld 30
 
-spielfeld(14) = "A1"
+spielfeld(14) = "A2"
 spielfeld(21) = "B1"
 
 // Funktion zur Umwandlung in ein 2D-Layout und Ausgabe
