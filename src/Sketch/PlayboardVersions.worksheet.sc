@@ -13,6 +13,7 @@ spielfeld(30) = "ST"  // Spieler D auf Feld 30
 spielfeld(14) = "A2"
 spielfeld(21) = "B1"
 spielfeld(31) = "C1"
+spielfeld(32) = "D1"
 
 // Funktion zur Umwandlung in ein 2D-Layout und Ausgabe
 def printBoard(spielfeld: Array[String], house1: Array[String], house2: Array[String], house3: Array[String], house4: Array[String]): Unit = {
